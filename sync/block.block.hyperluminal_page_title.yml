@@ -1,0 +1,20 @@
+uuid: bd4b43a2-1a9c-49db-8484-cad4c385c0a1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hyperluminal
+_core:
+  default_config_hash: mTAi4T1IqOa1fv-wrVb7dt2-qHRRui-k5fMAa2wsaTY
+id: hyperluminal_page_title
+theme: hyperluminal
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

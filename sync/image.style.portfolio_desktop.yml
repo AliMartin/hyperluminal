@@ -1,0 +1,15 @@
+uuid: befe2756-012b-421e-b250-41949b56223a
+langcode: en
+status: true
+dependencies: {  }
+name: portfolio_desktop
+label: 'Portfolio desktop'
+effects:
+  9372b98f-6924-4f0e-9c9c-ba7b027022a2:
+    uuid: 9372b98f-6924-4f0e-9c9c-ba7b027022a2
+    id: image_scale
+    weight: 1
+    data:
+      width: 1600
+      height: null
+      upscale: false

@@ -1,0 +1,40 @@
+uuid: d75be4b6-af4e-4c8b-8463-7f095c17717a
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.portfolio_desktop
+    - image.style.portfolio_mobile
+    - image.style.portfolio_tablet
+  theme:
+    - hyperluminal
+id: portfolio
+label: Portfolio
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: hyperluminal.screen.xl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_desktop
+    breakpoint_id: hyperluminal.screen.lg-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_tablet
+    breakpoint_id: hyperluminal.screen.md-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_tablet
+    breakpoint_id: hyperluminal.screen.sm-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: portfolio_mobile
+    breakpoint_id: hyperluminal.screen.xs-max
+    multiplier: 1x
+breakpoint_group: hyperluminal.screen
+fallback_image_style: '_original image_'

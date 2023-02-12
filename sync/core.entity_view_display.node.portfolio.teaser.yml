@@ -1,0 +1,48 @@
+uuid: c1190419-fda7-44e1-a179-8099c69c0f90
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_client_type
+    - field.field.node.portfolio.field_gallery
+    - field.field.node.portfolio.field_link
+    - field.field.node.portfolio.field_website_features
+    - node.type.portfolio
+    - responsive_image.styles.portfolio
+  module:
+    - responsive_image
+    - text
+    - user
+id: node.portfolio.teaser
+targetEntityType: node
+bundle: portfolio
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_gallery:
+    type: responsive_image
+    label: hidden
+    settings:
+      responsive_image_style: portfolio
+      image_link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_client_type: true
+  field_link: true
+  field_website_features: true

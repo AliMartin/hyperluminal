@@ -1,0 +1,8 @@
+uuid: a3139688-e61f-4f19-98d9-9f4a1d3d59f6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Client type'
+vid: client_type
+description: ''
+weight: 0
