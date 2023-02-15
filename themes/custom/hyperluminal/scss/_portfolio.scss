@@ -1,0 +1,52 @@
+.field--name-field-client-type {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.field--name-field-website-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0;
+
+  .field__label {
+    text-align: center;
+  }
+
+  .field__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+
+    .field__label {
+      text-transform: uppercase;
+    }    
+
+    .field__item {
+      background-color: $info;
+      color: $white;
+      padding: 10px 20px;
+      border-radius: 30px;
+    }
+  }
+}
+
+
+.slide__content {
+  padding: 15px;
+}
+
+.slick-arrow::before {
+  color: $primary;
+  opacity: 1;
+}
+
+.slick-arrow:hover::before {
+  color: $secondary;
+}
