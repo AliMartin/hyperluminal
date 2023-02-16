@@ -56,4 +56,5 @@
 /INSTALL.txt
 
 # Allow these files
+!/.cpanel.yml
 !/sites/default/settings.local.php
