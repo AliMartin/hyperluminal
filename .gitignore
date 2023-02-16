@@ -56,4 +56,4 @@
 /INSTALL.txt
 
 # Allow these files
-!/sites/settings.local.php
+!/sites/default/settings.local.php
