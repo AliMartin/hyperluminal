@@ -14,3 +14,4 @@ $settings['trusted_host_patterns'] = [
 ];
 
 $settings['config_sync_directory'] = DRUPAL_ROOT . '/sync';
+
