@@ -57,4 +57,5 @@
 
 # Allow these files
 !/.cpanel.yml
+!/sync/*
 !/sites/default/settings.local.php
