@@ -1,8 +1,8 @@
 <?php
 
 $settings['update_free_access'] = FALSE;
-$settings['file_private_path'] = '../../private-files';
-$settings['file_temp_path'] = '../../tmp';
+$settings['file_private_path'] = 'private-files';
+$settings['file_temp_path'] = 'tmp';
 
 $settings['trusted_host_patterns'] = [
   '^hyperluminal\.co\.uk$',
@@ -11,4 +11,4 @@ $settings['trusted_host_patterns'] = [
   '^.+\.hyperluminal\.ddev\.site$',
 ];
 
-$settings['config_sync_directory'] = '../../sync';
+$settings['config_sync_directory'] = 'sync';
