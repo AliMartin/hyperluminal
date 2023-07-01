@@ -1,3 +1,10 @@
+.field--name-field-paragraph {
+  > .field__item {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+}
+
 .paragraph--type--tiles-layout {
   .layout__region {
     display: flex;
@@ -14,6 +21,7 @@
       padding: 40px;
       border-radius: 20px;
       border: 1px solid $gray-200;
+      background-color: $white;
       box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
 
       p {
@@ -67,3 +75,5 @@
   max-width: 750px;
   margin: 0 auto;
 }
+
+

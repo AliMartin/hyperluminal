@@ -1,7 +1,21 @@
+body {
+  background-color: $gray-200;
+}
+
+#block-hyperluminal-page-title {
+  max-width: 750px;
+  margin: 3rem auto;
+
+  h1 {
+    margin: inherit;
+    font-size: 2.3rem;
+  }
+}
+
 #block-hyperluminal-content {
   .field--name-body {
     max-width: 750px;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
   }
 }
 
@@ -15,6 +29,13 @@ i {
   }
 }
 
+
+/* Center align eveything */
+article {
+  text-align: center;
+}
+
+
 #services {
   text-align: center;
 
@@ -25,13 +46,77 @@ i {
   }
 }
 
-#about-photo {
-  img {
-    max-width: 300px;
-    max-height: 300px;
-    margin: 0 auto;
-    border-radius: 150px;
-    padding: 10px;
-    border: 10px solid $info;
+/* Biography image */
+body.welcome,
+body.about {
+  .paragraph--type--image .field--name-field-media-image {
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 50%;
+      padding: 0.5rem;
+      border: 0.5rem solid $purple;
+      background-color: $white;
+    }
+  }
+}
+
+
+/* Home page */
+body.welcome {
+  .node__content .field--name-body {
+    p:first-of-type {
+      font-weight: $font-weight-bold;
+      font-size: 1.2rem;
+    }
+  }
+  h2 {
+    color: $secondary;
+  }
+}
+
+
+#services-panel {
+  background-color: $white;
+  padding: 3rem;
+  border-radius: $border-radius;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 40px;
+    justify-content: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    > div {
+      display: flex;
+      align-items: center;
+      // gap: 10px;
+  
+      .icon {
+      //  width: 80px;
+        margin-right: 10px;
+
+        i {
+          font-size: 28px;
+          line-height: 28px;
+        }
+      }
+
+      .text {
+        font-weight: $font-weight-bold;
+        font-size: large;
+      }
+
+    }  
   }
 }
