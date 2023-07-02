@@ -12925,6 +12925,12 @@ article {
   text-align: center;
 }
 
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 #services {
   text-align: center;
 }

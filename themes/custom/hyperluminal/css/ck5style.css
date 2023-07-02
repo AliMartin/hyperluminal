@@ -11953,6 +11953,11 @@ a > .ck-content code {
 .ck-content article {
   text-align: center;
 }
+.ck-content .img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 .ck-content #services {
   text-align: center;
 }
