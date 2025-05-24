@@ -1,8 +1,6 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
-  admin_toolbar: 0
-  admin_toolbar_tools: 0
   ai: 0
   ai_assistant_api: 0
   ai_chatbot: 0
@@ -40,14 +38,18 @@ module:
   httpswww: 0
   image: 0
   key: 0
+  layout_builder: 0
   layout_discovery: 0
   layout_paragraphs: 0
   link: 0
+  linkit: 0
   media: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   mysql: 0
+  navigation: 0
   node: 0
   options: 0
   page_cache: 0
@@ -68,7 +70,6 @@ module:
   text: 0
   token: 0
   toolbar: 0
-  tour: 0
   twig_tweak: 0
   update: 0
   user: 0
@@ -77,6 +78,7 @@ module:
   webform_node: 0
   webform_ui: 0
   pathauto: 1
+  xmlsitemap: 1
   views: 10
   paragraphs: 11
   standard: 1000

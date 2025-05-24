@@ -69,4 +69,27 @@ footer {
 #block-hyperluminal-hyperluminallogo img {
   width: 120px;
   height: auto;
+  margin-bottom: 15px;
+}
+
+
+
+#block-hyperluminal-sitemap {
+  text-align: center;
+  text-transform: uppercase;
+  // letter-spacing: 2px;
+  font-size: small;
+  font-weight: $font-weight-bold;
+  line-height: 1;
+
+  a {
+    color: $white;
+    text-decoration: inherit;
+    border-bottom: inherit;
+
+    &:hover,
+    &:focus {
+      color: $secondary;
+    }
+  }
 }
