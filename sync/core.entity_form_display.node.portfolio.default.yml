@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.portfolio.body
     - field.field.node.portfolio.field_client_type
     - field.field.node.portfolio.field_media_image
+    - field.field.node.portfolio.field_metatags
     - field.field.node.portfolio.field_quote
     - field.field.node.portfolio.field_services
     - field.field.node.portfolio.field_website
@@ -14,6 +15,7 @@ dependencies:
   module:
     - link
     - media_library
+    - metatag
     - path
     - text
 id: node.portfolio.default
@@ -49,6 +51,14 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 121
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_quote:
     type: text_textarea

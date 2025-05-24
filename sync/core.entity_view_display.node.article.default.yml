@@ -5,10 +5,12 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.field_image
+    - field.field.node.article.field_metatags
     - field.field.node.article.field_tags
     - image.style.wide
     - node.type.article
   module:
+    - metatag
     - svg_image
     - text
     - user
@@ -34,8 +36,19 @@ content:
       image_style: wide
       image_loading:
         attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
     third_party_settings: {  }
     weight: -1
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
     region: content
   field_tags:
     type: entity_reference_label

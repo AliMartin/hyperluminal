@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.portfolio.body
     - field.field.node.portfolio.field_client_type
     - field.field.node.portfolio.field_media_image
+    - field.field.node.portfolio.field_metatags
     - field.field.node.portfolio.field_quote
     - field.field.node.portfolio.field_services
     - field.field.node.portfolio.field_website
@@ -13,6 +14,7 @@ dependencies:
     - node.type.portfolio
   module:
     - link
+    - metatag
     - text
     - user
 id: node.portfolio.default
@@ -43,6 +45,13 @@ content:
       link: false
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
     region: content
   field_quote:
     type: text_default
