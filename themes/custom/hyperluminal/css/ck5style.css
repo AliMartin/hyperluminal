@@ -12067,6 +12067,7 @@ a > .ck-content code {
 .ck-content #block-hyperluminal-sitemap {
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-size: small;
   font-weight: 600;
   line-height: 1;
