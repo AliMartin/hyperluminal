@@ -6,7 +6,7 @@ dependencies:
     - image.style.thumbnail
   module:
     - media
-    - svg_image
+    - image
     - user
 _core:
   default_config_hash: diywn6VdMoQOlDA-xslKdKrDko3SsTKfaK3WBG45UAg

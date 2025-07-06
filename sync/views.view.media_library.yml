@@ -8,7 +8,7 @@ dependencies:
   module:
     - media
     - media_library
-    - svg_image
+    - image
     - user
   enforced:
     module:

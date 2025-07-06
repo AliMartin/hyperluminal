@@ -5,14 +5,12 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.field_image
-    - field.field.node.article.field_metatags
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
   module:
-    - metatag
     - path
-    - svg_image
+    - image
     - text
 _core:
   default_config_hash: ewbd6G2uX456-bgwseM2Q-KQG3RkASoyHmTh-XR3oLU
@@ -44,14 +42,6 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_metatags:
-    type: metatag_firehose
-    weight: 121
-    region: content
-    settings:
-      sidebar: true
-      use_details: true
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags

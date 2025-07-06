@@ -64,7 +64,7 @@ elements: |-
       '#type': textarea
       '#title': Details
       '#title_display': invisible
-      '#placeholder': "Finally, if you can, please tell us a bit about what you're after. For example, a new website for your business."
+      '#placeholder': 'Finally, if you can, please tell us a bit about what your enquiry.'
       '#format_items': comma
   actions:
     '#type': webform_actions
@@ -177,7 +177,7 @@ settings:
   confirmation_type: url_message
   confirmation_url: '<front>'
   confirmation_title: ''
-  confirmation_message: 'Your message has been sent.'
+  confirmation_message: '<p>Thank you for your interest. Your message has been sent and someone will be in touch at the earliest convenience.</p>'
   confirmation_attributes: {  }
   confirmation_back: true
   confirmation_back_label: ''

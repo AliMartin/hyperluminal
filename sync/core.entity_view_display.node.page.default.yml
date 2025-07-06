@@ -4,12 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_metatags
-    - field.field.node.page.field_paragraph
     - node.type.page
   module:
-    - layout_paragraphs
-    - metatag
     - text
     - user
 _core:
@@ -25,22 +21,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_metatags:
-    type: metatag_empty_formatter
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
-    region: content
-  field_paragraph:
-    type: layout_paragraphs
-    label: hidden
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 1
     region: content
   links:
     settings: {  }
