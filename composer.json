@@ -27,7 +27,8 @@
         "drupal/core-recommended": "^10.3",
         "drupal/core-vendor-hardening": "^10",
         "drupal/honeypot": "^2.1 | ^2.2",
-        "drupal/httpswww": "^2.0",
+        "drupal/httpswww": "^2.1",
+        "drupal/responsive_favicons": "^3.0",
         "drupal/webform": "^6.2@beta",
         "oomphinc/composer-installers-extender": "^2.0"
     },
